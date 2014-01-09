@@ -21,6 +21,7 @@
 		AA4B95D9187F320E00B178B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4B95BB187F320E00B178B2 /* UIKit.framework */; };
 		AA4B95E1187F320E00B178B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA4B95DF187F320E00B178B2 /* InfoPlist.strings */; };
 		AA4B95E3187F320E00B178B2 /* mySafariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4B95E2187F320E00B178B2 /* mySafariTests.m */; };
+		AA4B95ED187F3B9000B178B2 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4B95EC187F3B9000B178B2 /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AA4B95DE187F320E00B178B2 /* mySafariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySafariTests-Info.plist"; sourceTree = "<group>"; };
 		AA4B95E0187F320E00B178B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA4B95E2187F320E00B178B2 /* mySafariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySafariTests.m; sourceTree = "<group>"; };
+		AA4B95EC187F3B9000B178B2 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4B95ED187F3B9000B178B2 /* CheckMate.framework in Frameworks */,
 				AA4B95BA187F320E00B178B2 /* CoreGraphics.framework in Frameworks */,
 				AA4B95BC187F320E00B178B2 /* UIKit.framework in Frameworks */,
 				AA4B95B8187F320E00B178B2 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		AA4B95B6187F320E00B178B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA4B95EC187F3B9000B178B2 /* CheckMate.framework */,
 				AA4B95B7187F320E00B178B2 /* Foundation.framework */,
 				AA4B95B9187F320E00B178B2 /* CoreGraphics.framework */,
 				AA4B95BB187F320E00B178B2 /* UIKit.framework */,
@@ -378,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gule/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mySafari/mySafari-Prefix.pch";
 				INFOPLIST_FILE = "mySafari/mySafari-Info.plist";
@@ -391,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gule/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mySafari/mySafari-Prefix.pch";
 				INFOPLIST_FILE = "mySafari/mySafari-Info.plist";
